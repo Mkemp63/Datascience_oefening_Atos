@@ -108,7 +108,8 @@ class Calculate(object):
         plt.show()
 
     def sigmoidplot(self):
-        # het is mij niet gelukt om een goed sigmoid plot te maken van data uit de dataset.
+        # i did not succeed in making a sigmoid plot from dataset data, so we will use a numpy array to demonstrate
+        # functionality
         x = np.arange(-10, 10, 0.2)
         plt.plot(x, self.sigmoid(x))
         plt.xlabel('x')
